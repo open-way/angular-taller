@@ -3,6 +3,7 @@
 
 var a = 7;
 var b = 12
+const variable = '12' // Definir este tipo de variable.
 
 if (a === 7) {
     // Solo tiene alcanze a este bloque

@@ -1,0 +1,23 @@
+<article class="container">
+  <header>
+    <nav>
+      <a routerLink="/">->Home</a>
+      <a routerLink="/movimientos">-> Movimientos</a>
+      <a routerLink="/productos">-> Productos</a>
+      <a routerLink="/documentos"> ->Documentos</a>
+      <a routerLink="/contacto"> ->Contacto</a>
+    </nav>
+    <h1>
+      <!--enlace con propiedades del componente-->
+      <!-- {{title}} -->
+    </h1>
+  </header>
+  <main>
+    <!--el componente movimientos desaparece-->
+    <!--<vit-movimientos></vit-movimientos>-->
+
+    <!--ahora usaremos un componente nativo 
+  que el enrutador cargue una página dinámicamente-->
+    <router-outlet></router-outlet>
+  </main>
+</article>

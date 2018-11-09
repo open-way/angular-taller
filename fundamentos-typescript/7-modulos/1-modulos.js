@@ -1,3 +1,4 @@
+// import { Cliente } from './cliente';
 var Tienda;
 (function (Tienda) {
     var Ropa = /** @class */ (function () {
@@ -19,3 +20,7 @@ var Tienda;
 })(Tienda || (Tienda = {}));
 var Info = Tienda.Informatica;
 var cargarInformatica = new Info('Supertienda');
+// let cliente = new Cliente();
+// cliente.agregarCarrito('Pantalon');
+// const compras = cliente.getCompras();
+// console.log(compras);

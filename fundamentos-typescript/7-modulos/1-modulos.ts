@@ -1,3 +1,4 @@
+// import { Cliente } from './cliente';
 module Tienda {
     export class Ropa {
         constructor(public titulo: string) {
@@ -14,3 +15,9 @@ module Tienda {
 
 import Info = Tienda.Informatica;
 let cargarInformatica = new Info('Supertienda');
+
+
+// let cliente = new Cliente();
+// cliente.agregarCarrito('Pantalon');
+// const compras = cliente.getCompras();
+// console.log(compras);
