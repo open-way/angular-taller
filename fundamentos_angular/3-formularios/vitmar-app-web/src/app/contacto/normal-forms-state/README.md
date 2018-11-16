@@ -26,5 +26,7 @@ Colocaremos una validación. `required` para ver valid e invalid.
 ```
 Ahora si podemos utilizar las propiedades, pero quitaremos _ng-_
 
+<!-- ME QUEDÉ AQUIIIIIIIIIIIIIII -->
+
 Agregaremos una validación
 `nombre` Le decimos que este campo sea requerido.
