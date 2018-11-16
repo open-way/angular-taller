@@ -2,7 +2,7 @@
 
 ## La tarea es enrrutar a productos.
 - documentos/ventas
-    Aqui aran carga perezosa.
+    Aqui haran carga perezosa.
     Envio de parametros.[Instructor]
     Hacer un módulo compras y enviar parametros.
 - Productos

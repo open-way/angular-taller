@@ -18,10 +18,8 @@ Dos formas de utilizar la libreria.
 ],
 ```
 
-3) Lo Agregamos al angular.json
-```json
- "styles": [
-    "node_modules/bootstrap/dist/css/bootstrap.css",
-    "src/styles.scss"
-],
+3) Lo Agregamos al index.html
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
 ```
