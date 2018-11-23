@@ -1,3 +1,6 @@
+INSTALL BOOSTRAP
+
+
 1. Crear un proyecto de 0
 2. Crearemos un component hijo, donde listaremos Posts.
 3. Crearemos una interface con los atributos de post.
@@ -85,3 +88,24 @@ getHeroes(): Observable<Hero[]> {
 
 </div>
 ```
+
+22. El routing es darle click en posts listquea almodulo de posts.
+23. Cuando el usuario le da click en un post. en la ruta debe agregar un parametro.
+```html
+<a *ngFor="let hero of heroes" class="col-1-4"
+    routerLink="/detail/{{hero.id}}">
+  <div class="module hero">
+    <h4>{{hero.name}}</h4>
+  </div>
+</a>
+```
+24. Hacemos un metodo.
+
+```ts
+goBack(): void {
+  this.location.back();
+}
+```
+
+25. Ahora es http.
+26. pipes, http, observables.
